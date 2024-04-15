@@ -51,7 +51,6 @@ public:
     return stod(m_eqn.at(0));
   }
 
-private:
   string remove_spaces(string str){
     int len = str.length();
     string clean;
@@ -204,7 +203,25 @@ private:
     for (string s : m_eqn) cout << "["+s+"]";
     cout << "\n";*/
   }
-
+int get_start() {
+  return m_start;
+}
+void set_start(int start) {
+  m_start = start;
+}
+int get_stop() {
+  return m_stop;
+}
+void set_stop(int stop) {
+  m_stop = stop;
+}
+vector<string> get_eqn() {
+  return m_eqn;
+}
+void set_eqn(vector<string> eqn) {
+  m_eqn = eqn;
+}
+private:
   int m_start;
   int m_stop;
   int m_verbose;
