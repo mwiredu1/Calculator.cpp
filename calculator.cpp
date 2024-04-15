@@ -1,6 +1,8 @@
 #include <iostream>
+#include <iomanip>
 #include <math.h>
 #include <vector>
+
 using namespace std;
 // TODO: add history functionality
 // TODO: clean up commented out code,
