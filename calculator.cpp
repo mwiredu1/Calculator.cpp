@@ -5,7 +5,7 @@
 
 using namespace std;
 // TODO: add history functionality
-// TODO: clean up commented out code,
+// TODO: clean up commented out code, update readme, write comments
 // TODO: set up / allow cmdline args
 // TODO: finish setting up verbosity
 class Calculator {
